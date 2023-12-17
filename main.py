@@ -1,11 +1,16 @@
 from telethon import TelegramClient
 
 # Use your own values from my.telegram.org
-api_id = 28509031
-api_hash = '86a341f619e093b8b2168dad9844c0db'
+# api_id = 28509031
+# api_hash = '86a341f619e093b8b2168dad9844c0db'
+
+api_id = 24157867
+api_hash = '690948a57648db1f77ce473cc303db38'
 
 # Login sử dụng session có sẵn
-client = TelegramClient('anon', api_id, api_hash)
+# client = TelegramClient('anon', api_id, api_hash)
+
+client = TelegramClient('sis2', api_id, api_hash)
 
 # The first parameter is the .session file name (absolute paths allowed)
 # Đăng nhập vào acc Telegram, callback gửi tin nhắn đến acc của mình

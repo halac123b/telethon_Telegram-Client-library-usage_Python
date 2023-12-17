@@ -2,12 +2,10 @@ import os
 import asyncio
 
 import pytgcalls
-#from pytgcalls.mtproto_client_type import MTProtoClientType
 
-# choose one of this
 import telethon
 
-# EDIT VALUES!
+# EDIT VALUES
 API_HASH = '86a341f619e093b8b2168dad9844c0db'
 API_ID = 28509031
 CHAT_ID = '-4087109494'
